@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
 
-
+st.set_page_config(page_title='LinearFunctionsPlotter!', page_icon=':chart_with_upwards_trend:', layout='wide')
 st.title("This website will help you plot linear equations :chart_with_upwards_trend:")
 st.write('---')
 col1,col2 = st.columns(2)
